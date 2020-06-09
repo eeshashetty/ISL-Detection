@@ -61,7 +61,7 @@ for i in dirs:
     for j in os.listdir(path1):
         path2 = path1 + "/" + j
         img = cv2.imread(path2)
-        skel = draw_keypoints(img)
+        skel,im = draw_keypoints(img)
         try:
             cv2.imwrite('data/train/'+i+'/'+j, skel)
         except:
