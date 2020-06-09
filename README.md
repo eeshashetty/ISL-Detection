@@ -22,6 +22,6 @@ There are lack of good quality ISL datasets available online. The lack of qualit
 Again, due to a lack of quality ISL datasets - there aren't any Double-Handed ISL datasets freely available. Single-Handed ISL is very similar to American Sign Language (ASL) and won't be as practically useful as Double-Handed ISL is used more.
 
 ## Future Work
-[ ] Training model to recognize numbers
-[ ] Training model to recognize words (through <b>Gesture Recognition</b>)
-[ ] Applying the model to Livestream Data, making this a Live-Time ISL detection system
+- [ ] Training model to recognize numbers
+- [ ] Training model to recognize words (through <b>Gesture Recognition</b>)
+- [ ] Applying the model to Livestream Data, making this a Live-Time ISL detection system
