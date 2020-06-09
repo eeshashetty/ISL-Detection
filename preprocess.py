@@ -49,7 +49,9 @@ def draw_keypoints(img):
             cv2.line(img1, points[partA], points[partB], (255, 255, 255), 2)
             cv2.line(img, points[partA], points[partB], (0, 255, 255), 2)
     return img1, img
-    
+
+# Uncomment this section only during preprocessing.
+'''    
 # Process all images in your Dataset
 path = "test_images/data"
 
@@ -70,3 +72,4 @@ for i in dirs:
         print(j)
     print(i+" done")
 
+'''
